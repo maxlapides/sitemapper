@@ -1,0 +1,19 @@
+{
+	"name": "sitemapper",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"underscore": "1.x",
+		"express": "3.x",
+		"jade": "*",
+		"cheerio": "0.13.x",
+		"q": "1.x",
+		"mongoose" : "3.x",
+		"simplecrawler": "0.x",
+		"moment": "2.x",
+		"socket.io": "0.x"
+	}
+}

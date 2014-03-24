@@ -1,0 +1,74 @@
+/*****************************************
+SITEMAPPER
+Max Lapides 2014
+
+Main styles
+*****************************************/
+
+@import "bootstrap";
+@import "graph";
+@import "fancybox";
+
+body {
+	font-family: 'adelle-sans', Adelle Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header.jumbotron {
+	text-align: center;
+
+	h1, h2 {
+		margin: 0;
+	}
+
+	form {
+		margin-top: 40px;
+	}
+
+	.form-group {
+		width: 100%;
+		text-align: center;
+	}
+
+	input, button {
+		font-size: 20px;
+		line-height: 50px;
+		height: 50px;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	input.form-control {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+}
+
+#tree-container {
+	background: #EEE;
+	margin-bottom: 20px;
+
+	&.spinning {
+		height: 100px;
+	}
+
+}
+
+#download-tree {
+	display: none;
+	float: right;
+}
+
+@media (min-width: 768px) {
+
+	header.jumbotron {
+
+		input.form-control {
+			margin-right: 20px;
+			margin-bottom: 0;
+			width: 50%;
+		}
+
+	}
+
+}

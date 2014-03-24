@@ -1,0 +1,18 @@
+extends layout
+
+block content
+	header.jumbotron
+		.container
+			h1 Sitemapper
+			h2 by Max Lapides
+			form.form-inline(role='form')
+				.form-group
+					input.form-control#site(placeholder='http://' value='http://')
+					button.btn.btn-primary(type='submit') Go!
+	.container
+		#tree-container.clearfix
+		.clearfix
+			a#download-tree.btn.btn-success View Tree as Text
+		hr
+		footer
+			p &copy; #{moment().format('YYYY')} Max Lapides. All rights reserved.

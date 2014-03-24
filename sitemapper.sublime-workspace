@@ -1,0 +1,652 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pages",
+				"pagesCrawled"
+			],
+			[
+				"site",
+				"siteId"
+			],
+			[
+				"email",
+				"emailRegex"
+			],
+			[
+				"badEmails",
+				"badEmails"
+			],
+			[
+				"badema",
+				"badEmailsStr"
+			],
+			[
+				"badEma",
+				"badEmails"
+			],
+			[
+				"badEmail",
+				"badEmailsStr"
+			],
+			[
+				"auto",
+				"autoStaticDataId"
+			],
+			[
+				"aut",
+				"autoInit"
+			],
+			[
+				"first",
+				"firstEqualAddress"
+			],
+			[
+				"push",
+				"pushCurTemp"
+			],
+			[
+				"x",
+				"xReg"
+			],
+			[
+				"bool",
+				"boolStatement"
+			],
+			[
+				"cur",
+				"curType"
+			],
+			[
+				"staticD",
+				"staticData"
+			],
+			[
+				"LOAD",
+				"LOADY_MEM"
+			],
+			[
+				"pare",
+				"parentScopeExists"
+			],
+			[
+				"sco",
+				"scopeRoot"
+			],
+			[
+				"CodeGen",
+				"CodeGenScope"
+			],
+			[
+				"curSc",
+				"curScopeId"
+			],
+			[
+				"LOADY",
+				"LOADY_MEM"
+			],
+			[
+				"EXPR",
+				"EXPR_LOAD_MEM"
+			],
+			[
+				"EXPR_LO",
+				"EXPR_LOAD_CONST"
+			],
+			[
+				"whi",
+				"whileIfHelper"
+			],
+			[
+				"staticd",
+				"autoStaticDataId"
+			],
+			[
+				"AD",
+				"ADD"
+			],
+			[
+				"nu",
+				"pushNum"
+			],
+			[
+				"LO",
+				"LOAD_CONST"
+			],
+			[
+				"exe",
+				"execEnviroPush"
+			],
+			[
+				"erro",
+				"errorCount"
+			],
+			[
+				"stat",
+				"staticDataEntry"
+			],
+			[
+				"staticData",
+				"staticDataEntry"
+			],
+			[
+				"sta",
+				"staticLoc1"
+			],
+			[
+				"static",
+				"staticLoc2"
+			],
+			[
+				"hea",
+				"heapPos"
+			],
+			[
+				"token",
+				"tokenType"
+			],
+			[
+				"new",
+				"newBoolStatement"
+			],
+			[
+				"exec",
+				"execEnviroPush"
+			],
+			[
+				"stack",
+				"stackPos"
+			],
+			[
+				"LOADX_",
+				"LOADX_CONST"
+			],
+			[
+				"pus",
+				"pushTemp"
+			],
+			[
+				"curS",
+				"curScopeId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scrape.js",
+			"settings":
+			{
+				"buffer_size": 2683,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jshin",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax c#",
+				"Set Syntax: C#"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Snippet: if … else"
+			],
+			[
+				"rot",
+				"Rot13 Selection"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"node scrape.js",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape2.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/.jshintrc",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/server.js",
+		"/Users/Max/Desktop/test.hs",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Applications/Sublime Text.app/Contents/MacOS/changelog.txt",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Networks/Node Presentation/httpServer.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Networks/Node Presentation/events.html",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Networks/Node Presentation/chat.js",
+		"/Applications/MAMP/htdocs/email-validator/js/validator.js",
+		"/Applications/MAMP/htdocs/email-validator/css/styles.css",
+		"/Applications/MAMP/htdocs/email-validator/index.html",
+		"/Users/Max/Desktop/Email Address Validation/validator.js",
+		"/Users/Max/Desktop/Email Address Validation/index.html",
+		"/Users/Max/Documents/Minecraft_Server/server.properties",
+		"/Applications/MAMP/htdocs/Compiler/compiler.sublime-project",
+		"/Applications/MAMP/htdocs/Compiler/js/code-gen.js",
+		"/Applications/MAMP/htdocs/Compiler/js/tests.js",
+		"/Applications/MAMP/htdocs/Compiler/js/helpers.js",
+		"/Applications/MAMP/htdocs/Compiler/js/lexer.js",
+		"/Applications/MAMP/htdocs/Compiler/js/parser.js",
+		"/Applications/MAMP/htdocs/Compiler/js/setup.js",
+		"/Applications/MAMP/htdocs/Compiler/js/symbol-table.js",
+		"/Applications/MAMP/htdocs/Compiler/index.html",
+		"/Applications/MAMP/htdocs/Compiler/README.md",
+		"/Applications/MAMP/htdocs/Compiler/scss/_main.scss",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+		"/Applications/MAMP/htdocs/Compiler/css/styles.css",
+		"/Applications/MAMP/htdocs/Compiler/js/d3-parse-tree.js",
+		"/Applications/MAMP/htdocs/Compiler/js/compiler.js",
+		"/Applications/MAMP/htdocs/Compiler/scss/styles.scss",
+		"/Users/Max/.ssh/known_hosts",
+		"/Applications/MAMP/htdocs/Compiler/.gitignore"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"siteId =",
+			"discoverPages",
+			".path",
+			"error",
+			"conso.e.log",
+			"\\n",
+			"/",
+			"'",
+			"parseBool",
+			"parseExpr",
+			"parseBoolean",
+			"addStaticData(fals",
+			"autoSta",
+			"auto",
+			"assign",
+			"getTempById",
+			"assign",
+			"pushTem",
+			"assign",
+			"pushTemp",
+			"getTempbyId",
+			"getTem",
+			"treeRoot",
+			"this.pushNum",
+			"whileIf",
+			"WhileIf",
+			"BooleanExpr",
+			"boolean",
+			"\"boolea",
+			"this.determineType",
+			"equalChecker",
+			"treeRoot.children",
+			"CodeGenSc",
+			"console.log",
+			"\\n",
+			"    ",
+			"\\t",
+			"a",
+			"too long",
+			"exprHel",
+			"LOADY_MEM",
+			"assign",
+			"loop",
+			"\\\\n\\n",
+			"testProgram += ",
+			"testProgram += {\\n",
+			"(.*)\\n",
+			"$\\n\n\\n",
+			"$\\n",
+			"$\\\\n\\n\\\\n",
+			"$\\n\n\\n",
+			"$\\\\n\\\\n",
+			"$\\\\n\\n\\\\n",
+			"\\n",
+			"\\\\t",
+			"   ",
+			"    ",
+			"	",
+			"\\t",
+			"danger",
+			"exprHel",
+			"curType",
+			"int",
+			"token",
+			"boolStatement[0].",
+			"\" \"",
+			"print",
+			"lookingInScope",
+			"curScop",
+			"treeRoot.children[1]",
+			"LOAD_MEM",
+			"LOAD_CONST",
+			"equal?",
+			"determin",
+			"parseBo",
+			"parseBooleanEx",
+			"booleanExpr",
+			"this.deter",
+			"BOOL",
+			"parseBoo",
+			"Expecting Expr",
+			"BooleanExpr",
+			"// bool",
+			"negHe",
+			"== \"str",
+			"\"whil",
+			"\"0\" +",
+			"jumpDist",
+			"console",
+			"consol",
+			"cons",
+			"conso",
+			"case \"str",
+			"program too ",
+			"autoStat",
+			"pushTemp",
+			"addStat",
+			"pushTemp",
+			"auto",
+			"addStat",
+			"addStaticData",
+			"\"00",
+			"xy",
+			"this.execEnviroPush",
+			"stack",
+			"LOADY_M",
+			"console.",
+			"getTempByI",
+			"getTempById",
+			"curScop",
+			"this.curScope",
+			"block",
+			"this.getTemp",
+			"addStat",
+			"execEnviro.push",
+			"this.pushNu",
+			"console.",
+			"cons",
+			"fancybox",
+			"recurseThr",
+			"parseBool",
+			"parseExpr",
+			"parseBool",
+			"BooleanExpr",
+			"consol",
+			"outVer",
+			"statementList",
+			"parseBooleanE"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"err",
+			"",
+			"\\\\n\\n",
+			"\\\\n",
+			"\\\\t",
+			"\\\\n\"\\n",
+			"\"\\\\n\\n",
+			"testProgram += \"",
+			"testProgram  = {\\n",
+			"testProgram += \\1\n",
+			"testProgram += \\1\\n \n",
+			"$\n",
+			"$\\n",
+			"\\\\n\\n",
+			"\\\\n",
+			"\\n",
+			"\\t",
+			"\\\\t",
+			"this.push",
+			"symbolTable.curScope",
+			"this.getTempById",
+			"this.execEnviroPush",
+			"execEnviroPush",
+			"Compilers, Project 3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scrape.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1072,
+								1072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sitemapper.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"test",
+				"js/tests.js"
+			],
+			[
+				"cod",
+				"js/code-gen.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
