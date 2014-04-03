@@ -71,6 +71,7 @@ $(document).ready(function() {
 
 	});
 
+	// the ~*~mAgIc~*~ of recursion!!
 	function printTree(tree) {
 
 		var out = '<li>' + tree.name;

@@ -347,11 +347,18 @@ function organize(sitedoc) {
 
 	getSitePages()
 		.then(organizeByUrl)
-		.then(organizeByTopNav)
 		.then(organizeByFooterNav)
+		.then(organizeByTopNav)
 		.then(function() {
 			console.log('\tDone organizing!');
-			deferred.resolve(sitedoc);
+
+			// wait 100ms before resolving the promise
+			// fixed bug: sitemap only showed pages modified after organizeByUrl
+			// (this is not an optimal solution, but it works for now)
+			setTimeout(function() {
+				deferred.resolve(sitedoc);
+			}, 100);
+
 		});
 
 	return deferred.promise;
