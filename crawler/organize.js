@@ -24,6 +24,27 @@ function organize(sitedoc) {
 		return false;
 	}
 
+	function updateParent(pageid, parentid) {
+
+		function logError(err, saved) { if(err) { console.log(err); console.log(saved); } }
+		var promise = Page.findByIdAndUpdate(pageid, { parent : parentid }, logError);
+
+		promise.then(function() {
+
+			// TO DO: get rid of this log
+			// right now, this log is actually necessary
+			// if this log is removed, we'll get weird results
+			console.log('\t\tupdated ' + pageid + ' to parent ' + parentid);
+
+			var page = _.find(pages, function(page) {
+				return pageid === page._id;
+			});
+			page.parent = parentid;
+
+		});
+
+	}
+
 	function findPageByPath(path) {
 
 		var page = _.find(pages, function(page) {
@@ -94,8 +115,6 @@ function organize(sitedoc) {
 				parentPath.pop();
 			}
 
-			function logError(err, saved) { if(err) { console.log(err); console.log(saved); } }
-
 			// search for the parent page
 			while(parentPath.length > 1) {
 
@@ -107,7 +126,7 @@ function organize(sitedoc) {
 				var parentPage = findPageByPath(parentPathStr);
 
 				if(parentPage) {
-					Page.findByIdAndUpdate(page._id, { parent: parentPage._id }, logError );
+					updateParent(page._id, parentPage._id);
 					break;
 				}
 
@@ -130,6 +149,7 @@ function organize(sitedoc) {
 			// exceptions:
 			if(!pagedoc ||										// couldn't find the page doc
 				(pagedoc.path === '/') ||						// this page is the root
+				(pagedoc._id === parentdoc._id) ||				// the parent is the same as the page
 				(pagedoc.parent === parentdoc._id) ||			// the updated parent is the same as the current parent
 				(pagesOrganized.indexOf(pagedoc._id) > -1))		// page's parent has already been updated
 				{ return; }
@@ -139,8 +159,7 @@ function organize(sitedoc) {
 
 			// update page's parent
 			console.log('\t' + pagedoc.path + ' (' + pagedoc._id + ')' + ' ==> ' + parentdoc.path + ' (' + parentdoc._id + ')');
-			function logError(err, saved) { if(err) { console.log(err); console.log(saved); } }
-			Page.findByIdAndUpdate(pagedoc._id, { parent : parentdoc._id }, logError);
+			updateParent(pagedoc._id, parentdoc._id);
 
 		}
 
@@ -231,7 +250,7 @@ function organize(sitedoc) {
 			// if we didn't find the nav
 			if(!nav || !nav.length) {
 
-				// start by searching for a navigation item
+				// continue by searching for a navigation container
 				for(i = 0; i < containerSelectors.length; i++) {
 
 					// get current selector
@@ -357,7 +376,7 @@ function organize(sitedoc) {
 			// (this is not an optimal solution, but it works for now)
 			setTimeout(function() {
 				deferred.resolve(sitedoc);
-			}, 100);
+			}, 500);
 
 		});
 
@@ -368,6 +387,8 @@ function organize(sitedoc) {
 module.exports = organize;
 
 /*
+
+// FOR TESTING PURPOSES ONLY
 
 // connect to MongoDB
 var mongoose	= require('mongoose'),

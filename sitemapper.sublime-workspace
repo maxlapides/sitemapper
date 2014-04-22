@@ -4,8 +4,72 @@
 		"selected_items":
 		[
 			[
+				"foo",
+				"footerNavContainerSelectors"
+			],
+			[
+				"topN",
+				"topNavContainerSelectors"
+			],
+			[
+				"organi",
+				"organizeByNav"
+			],
+			[
 				"pages",
-				"pagesCrawled"
+				"pagesOrganized"
+			],
+			[
+				"parent",
+				"parentdoc"
+			],
+			[
+				"get",
+				"getSitePages"
+			],
+			[
+				"topNav",
+				"topNavContainerSelectors"
+			],
+			[
+				"organizeB",
+				"organizeByTopNav"
+			],
+			[
+				"organize",
+				"organizeByUrl"
+			],
+			[
+				"resolve",
+				"resolvedUrl"
+			],
+			[
+				"child",
+				"childElmtChildren"
+			],
+			[
+				"set",
+				"setupCrawler"
+			],
+			[
+				"translate",
+				"translateCoords"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"webs",
+				"websiteUrl"
+			],
+			[
+				"handle",
+				"handleError"
+			],
+			[
+				"queue",
+				"queueItem"
 			],
 			[
 				"site",
@@ -179,15 +243,87 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 313,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "scrape.js",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 2683,
+				"buffer_size": 2199,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "crawler/scraper.js",
+			"settings":
+			{
+				"buffer_size": 4072,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "crawler/organize.js",
+			"settings":
+			{
+				"buffer_size": 8778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "crawler/fetchTree.js",
+			"settings":
+			{
+				"buffer_size": 2024,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "crawler/settings.js",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 1720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "schemas/Page.js",
+			"settings":
+			{
+				"buffer_size": 412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "schemas/Site.js",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 915,
 				"line_ending": "Unix"
 			}
 		}
@@ -195,9 +331,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 47.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"jsh",
 				"JSHint"
@@ -217,10 +357,6 @@
 			[
 				"jshint",
 				"JSHint: Set Plugin Options"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"syntax c#",
@@ -269,10 +405,49 @@
 	},
 	"file_history":
 	[
-		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape2.js",
-		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/schemas/Page.js",
 		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/.jshintrc",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/app.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/routes.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/views/layout.jade",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/public/scss/_graph.scss",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/public/scss/_fancybox.scss",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/crawler/scraper.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/public/flare.json",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/jade/node_modules/transformers/lib/shared.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/optimist/example/default_hash.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mongoose/lib/error/divergentArray.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/jade/lib/doctypes.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mongoose/node_modules/mpromise/.idea/inspectionProfiles/Project_Default.xml",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/cheerio/node_modules/CSSselect/node_modules/domutils/lib/traversal.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/jade/node_modules/monocle/node_modules/readdirp/node_modules/minimatch/test/extglob-ending-with-state-char.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/cheerio/node_modules/htmlparser2/node_modules/domhandler/test/cases/07-unescaped_in_style.json",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mongoose/node_modules/mongodb/lib/mongodb/commands/insert_command.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/views/index.jade",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/crawler/buildTree.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/settings.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/fetch-tree.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/public/js/displayTree.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/routes/crawlSite.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/routes/index.js",
+		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/public/scss/style.scss",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/views/inc/navbar.jade",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/views/navbar.jade",
+		"/Users/Max/Downloads/shapeshed-nodejsbook.io.examples-004ac34/hour08/example11/app.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/mongo-connect.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/db.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mysql/lib/protocol/sequences/Handshake.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/cheerio/History.md",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mysql/node_modules/readable-stream/node_modules/string_decoder/build/test-replacements.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/cheerio/node_modules/htmlparser2/test/Documents/RDF_Example.xml",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/node_modules/cheerio/Readme.md",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/sitemapper.sublime-project",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/package.json",
+		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/scrape2.js",
 		"/Users/Max/Library/Application Support/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
 		"/Users/Max/Documents/School/Vassar/Senior Year/Thesis/sitemapper/server.js",
 		"/Users/Max/Desktop/test.hs",
@@ -323,9 +498,127 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"zip",
+			"crawlMissingParents",
+			"printIndents",
+			"download-tree",
+			"url('",
+			" ...",
+			"53226a260ff302a984c5ec65",
+			"5324ae22eac5df97c5f25209",
+			"footer",
+			"top ",
+			"topNav",
+			"topNavContainerSelectors",
+			"topNavItemSelectors",
+			"organizeByTopNav",
+			"pagesOrganized",
+			"savePageParent",
+			"crawlTopNav",
+			"page =",
+			"what-we-do",
+			"}\n",
+			"findByIdAndUpdate",
+			"console.log",
+			"save",
+			"/products-services/...",
+			"console.log",
+			"extension",
+			"findPageByAnchor",
+			"findPageByPath",
+			"findPageByAnchor",
+			"getPageByAnchor",
+			"parentpath",
+			"parent",
+			"findPageByPath",
+			"currLink",
+			"root",
+			"cheerio",
+			"_this.",
+			"getChildren",
+			"getPages",
+			"deferred",
+			"thisScrape",
+			"deferred",
+			".deferred",
+			"this.buildTree",
+			"console.log",
+			".save",
+			"href",
+			"this.tree",
+			"this.pages",
+			"tree",
+			"this.paths",
+			"this.mapPages",
+			"mapPages",
+			"buildTree",
+			"_this.siteurl",
+			"this",
+			"this.siteurl",
+			"this\\.(.*) = function",
+			"this.deferred",
+			"this.paths",
+			"this.sitedoc",
+			"this.siteurl",
+			"this.c",
+			"setupCrawler",
+			"console.log",
+			"return handleError",
+			"conso.e.log",
+			"var (.*) = function",
+			"var [.]* = function",
+			"var (.)* = function",
+			"this",
+			"sitedoc",
+			"deferred",
+			"sitedoc",
+			"websiteUrl",
+			"paths",
+			"c",
+			"paths",
+			"log('log",
+			"console.log",
+			"sitedoc",
+			"deferr",
+			"addSite",
+			"deferred",
+			"error",
+			"siteId",
+			"sitedoc._id =",
+			"siteId",
+			"mapPages",
+			"bg",
+			"treeData",
+			"zoom()",
+			"!====",
+			"dragStarted",
+			"!=",
+			"zoomListener",
+			"==",
+			"childrenFn",
+			"links =",
+			".links",
+			"tree =",
+			"nodes",
+			"dragListener",
+			"\"",
+			"    ",
+			"pathIds",
+			"paths",
+			"pathIds",
+			"console.log",
+			"pathIds",
+			"console.log",
+			"Webpage",
+			"sites",
+			".save",
+			"indexOf",
+			"paths",
+			"pages",
+			"pathsCrawled",
 			"siteId =",
 			"discoverPages",
 			".path",
@@ -335,132 +628,37 @@
 			"/",
 			"'",
 			"parseBool",
-			"parseExpr",
-			"parseBoolean",
-			"addStaticData(fals",
-			"autoSta",
-			"auto",
-			"assign",
-			"getTempById",
-			"assign",
-			"pushTem",
-			"assign",
-			"pushTemp",
-			"getTempbyId",
-			"getTem",
-			"treeRoot",
-			"this.pushNum",
-			"whileIf",
-			"WhileIf",
-			"BooleanExpr",
-			"boolean",
-			"\"boolea",
-			"this.determineType",
-			"equalChecker",
-			"treeRoot.children",
-			"CodeGenSc",
-			"console.log",
-			"\\n",
-			"    ",
-			"\\t",
-			"a",
-			"too long",
-			"exprHel",
-			"LOADY_MEM",
-			"assign",
-			"loop",
-			"\\\\n\\n",
-			"testProgram += ",
-			"testProgram += {\\n",
-			"(.*)\\n",
-			"$\\n\n\\n",
-			"$\\n",
-			"$\\\\n\\n\\\\n",
-			"$\\n\n\\n",
-			"$\\\\n\\\\n",
-			"$\\\\n\\n\\\\n",
-			"\\n",
-			"\\\\t",
-			"   ",
-			"    ",
-			"	",
-			"\\t",
-			"danger",
-			"exprHel",
-			"curType",
-			"int",
-			"token",
-			"boolStatement[0].",
-			"\" \"",
-			"print",
-			"lookingInScope",
-			"curScop",
-			"treeRoot.children[1]",
-			"LOAD_MEM",
-			"LOAD_CONST",
-			"equal?",
-			"determin",
-			"parseBo",
-			"parseBooleanEx",
-			"booleanExpr",
-			"this.deter",
-			"BOOL",
-			"parseBoo",
-			"Expecting Expr",
-			"BooleanExpr",
-			"// bool",
-			"negHe",
-			"== \"str",
-			"\"whil",
-			"\"0\" +",
-			"jumpDist",
-			"console",
-			"consol",
-			"cons",
-			"conso",
-			"case \"str",
-			"program too ",
-			"autoStat",
-			"pushTemp",
-			"addStat",
-			"pushTemp",
-			"auto",
-			"addStat",
-			"addStaticData",
-			"\"00",
-			"xy",
-			"this.execEnviroPush",
-			"stack",
-			"LOADY_M",
-			"console.",
-			"getTempByI",
-			"getTempById",
-			"curScop",
-			"this.curScope",
-			"block",
-			"this.getTemp",
-			"addStat",
-			"execEnviro.push",
-			"this.pushNu",
-			"console.",
-			"cons",
-			"fancybox",
-			"recurseThr",
-			"parseBool",
-			"parseExpr",
-			"parseBool",
-			"BooleanExpr",
-			"consol",
-			"outVer",
-			"statementList",
-			"parseBooleanE"
+			"parseExpr"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"url('../images/fancybox/",
+			"",
+			"this.buildTree",
+			"siteurl",
+			"var $1 = function",
+			"deferred",
+			"paths",
+			"sitedoc",
+			"siteurl",
+			"c",
+			"return this.handleError",
+			"this.$1 = function",
+			"function $1",
+			"this.siteurl",
+			"sitedoc._id",
+			"!==",
+			"===",
+			"'",
+			"\\t",
+			"savedPages",
+			"Page",
+			"paths",
+			"pages",
 			"err",
 			"",
 			"\\\\n\\n",
@@ -495,7 +693,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -504,45 +702,102 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								308,
+								308
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "scrape.js",
+					"file": "app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2683,
+						"buffer_size": 2199,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1072,
-								1072
+								1655,
+								1655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 657.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "crawler/scraper.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3910,
+								3910
 							]
 						],
 						"settings":
@@ -554,7 +809,207 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "crawler/organize.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7862,
+								7862
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5329.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "crawler/fetchTree.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2024,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1506,
+								1506
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 961.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "crawler/settings.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								170
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/js/scripts.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 732.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "schemas/Page.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "schemas/Site.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								552,
+								552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -566,7 +1021,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 32.0
 	},
 	"layout":
 	{
@@ -623,11 +1078,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
